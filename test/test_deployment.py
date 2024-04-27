@@ -23,8 +23,7 @@ import shutil
 import tempfile
 import textwrap
 import contextlib
-
-from mock import patch, call, ANY
+from unittest.mock import patch, call, ANY
 
 from nose.tools import eq_
 from dh_virtualenv import Deployment

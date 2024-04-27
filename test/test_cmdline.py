@@ -20,9 +20,9 @@
 import io
 import os
 import warnings
+from unittest.mock import patch
 
 from dh_virtualenv import cmdline
-from mock import patch
 from nose.tools import eq_, ok_
 
 
